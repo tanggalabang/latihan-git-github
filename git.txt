@@ -15,3 +15,11 @@ $git merge namabrach : akan menggabungkan branc ke master
 $git branch --merged : mengechek brance yang suda di merge
 $git brance -d namabranch : menghapus branch
 $git branch -D namabranch : menghapus branch yang belum di merge 
+
+$git clone : clone dari repositori github
+$git remote : chek remote. default remote 'origin'
+$git push : untuk memperbarui repo di cloud
+$git remote add namaremote httpsladjlajd : menambahkan remote
+$git push -u namaremote master : meng push repo yang belum ada di github
+$git fetch : buat chek repo github ada perubahan apa ga
+$git pull : mengupdate repo internal
