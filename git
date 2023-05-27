@@ -1,0 +1,17 @@
+$git init : menjadikan folder menjadi repo
+$git status : chek status
+$git add nama.file : 
+$git add . : memilih semua
+$git commit -m "pesan" : di commit
+$git commit -am "pesan" : gabungan add dan commit
+$git log : untuk melihat semua commit
+$git log -3 : melihat 3 commit terahir
+$git chekout 3423b -- nama.file : mengembalikan keadaan semula
+$git branch : melihat branch
+$git branch nama : membuat branch nama
+$git log --all --decorate --oneline --graph : menampilkan visulaisasi branch seperti di gitgub
+$git checkout namabranch : pindah branch
+$git merge namabrach : akan menggabungkan branc ke master
+$git branch --merged : mengechek brance yang suda di merge
+$git brance -d namabranch : menghapus branch
+$git branch -D namabranch : menghapus branch yang belum di merge 
