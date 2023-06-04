@@ -20,7 +20,10 @@ $git clone : clone dari repositori github
 $git remote : chek remote. default remote 'origin'
 $git push : untuk memperbarui repo di cloud
 $git remote add namaremote httpsladjlajd : menambahkan remote
-$git remote set-url origin https://username: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@github.com/tanggalabang/mvc-school   ::: menggunakan ssh
+-- remote metode ssh
+1. membuat key ssh : 'ssh-keygen'
+2. salin public key ssh di : '/data/data/com.termux/files/home/.ssh/id_rsa.pub' 
+3. but key ssh di github
 $git push -u namaremote master : meng push repo yang belum ada di github
 $git fetch : buat chek repo github ada perubahan apa ga
 $git pull : mengupdate repo internal
